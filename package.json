@@ -1,38 +1,46 @@
 {
-  "name": "react_theme",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@devloco/react-scripts-wptheme": "^3.4.1-wp.1",
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.5.0",
-    "@testing-library/user-event": "^7.2.1",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1"
-  },
-  "scripts": {
-    "crabuild": "react-scripts build",
-    "craeject": "react-scripts eject",
-    "crastart": "react-scripts start",
-    "cratest": "react-scripts test",
-    "build": "wptheme-scripts build",
-    "start": "wptheme-scripts start",
-    "wpbuild": "wptheme-scripts wpbuild",
-    "wpstart": "wptheme-scripts wpstart"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+    "name": "react_theme",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@devloco/react-scripts-wptheme": "^3.4.1-wp.1",
+        "@emotion/react": "^11.11.4",
+        "@emotion/styled": "^11.11.5",
+        "@testing-library/jest-dom": "^4.2.4",
+        "@testing-library/react": "^9.5.0",
+        "@testing-library/user-event": "^7.2.1",
+        "axios": "^1.6.8",
+        "framer-motion": "^11.1.9",
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1",
+        "react-router-dom": "^6.23.0",
+        "sass": "^1.77.0"
+    },
+    "scripts": {
+        "crabuild": "react-scripts build",
+        "craeject": "react-scripts eject",
+        "crastart": "react-scripts start",
+        "cratest": "react-scripts test",
+        "build": "wptheme-scripts build",
+        "start": "wptheme-scripts start",
+        "wpbuild": "wptheme-scripts wpbuild",
+        "wpstart": "wptheme-scripts wpstart"
+    },
+    "eslintConfig": {
+        "extends": "react-app"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "homepage": "/WP-REACT/wp-content/themes/react_theme",
+    "browserLaunchTo": "http://localhost:8888/WP-REACT"
 }

@@ -1,0 +1,210 @@
+:root {
+  --primary: #ff6348;
+  --gray-1: #20232a;
+  --gray-2: #f4f3f3;
+  --font-family: "Poppins", system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --box-shadow: 0 6px 9px 0 rgb(0 0 0 / 15%);
+  --box-shadow-nav: rgb(0 0 0 / 22%) 0px 2px 18px 0px;
+  --text-color: #444;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-family);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: var(--text-color);
+  background-color: var(--gray-2);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0px;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+input {
+  font-family: var(--font-family);
+}
+
+::-moz-placeholder {
+  font-family: var(--font-family);
+}
+
+::placeholder {
+  font-family: var(--font-family);
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-fill {
+  flex: 1 1 auto;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.p-5 {
+  padding: 5px;
+}
+
+.p-10 {
+  padding: 10px;
+}
+
+.p-20 {
+  padding: 20px;
+}
+
+.p-30 {
+  padding: 30px;
+}
+
+.m-5 {
+  margin: 5px;
+}
+
+.mr-5 {
+  margin-right: 5px;
+}
+
+.m-10 {
+  margin: 10px;
+}
+
+.mr-15 {
+  margin-right: 15px;
+}
+
+.m-20 {
+  margin: 20px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.my-30 {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  width: 100%;
+}
+
+.calc {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+}
+
+.b1 {
+  background-color: red;
+  border: 1px solid red;
+}
+
+.b2 {
+  background-color: green;
+  border: 1px solid green;
+}
+
+.b3 {
+  background-color: blue;
+  border: 1px solid blue;
+}
+
+.b4 {
+  background-color: purple;
+  border: 1px solid purple;
+}
+
+@media (max-width: 576px) {
+  .br {
+    border: 2px solid red;
+  }
+}
+@media (min-width: 577px) and (max-width: 768px) {
+  .br {
+    border: 2px solid rgb(7, 228, 121);
+  }
+}
+@media (min-width: 769px) and (max-width: 992px) {
+  .br {
+    border: 2px solid purple;
+  }
+}
+@media (min-width: 993px) and (max-width: 1200px) {
+  .br {
+    border: 2px solid green;
+  }
+}
+@media (min-width: 1201px) {
+  .br {
+    border: 2px solid blue;
+  }
+}
+
+.btn {
+  padding: 8px 15px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.2s opacity;
+}
+.btn:hover {
+  opacity: 0.8;
+  border: 2px solid var(--primary);
+  color: var(--primary);
+  background-color: white;
+}
+
+.btn-primary {
+  background-color: var(--primary);
+  color: white;
+  border: 2px solid var(--primary);
+}
+
+.btn-reverse-primary {
+  border: 2px solid var(--primary);
+  color: var(--primary);
+  background-color: white;
+}
+
+.card {
+  border-radius: 20px;
+  background-color: white;
+}/*# sourceMappingURL=index.css.map */

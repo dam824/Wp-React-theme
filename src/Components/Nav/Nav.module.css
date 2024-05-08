@@ -1,0 +1,25 @@
+:root {
+  --primary: #ff6348;
+  --gray-1: #20232a;
+  --gray-2: #f4f3f3;
+  --font-family: "Poppins", system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --box-shadow: 0 6px 9px 0 rgb(0 0 0 / 15%);
+  --box-shadow-nav: rgb(0 0 0 / 22%) 0px 2px 18px 0px;
+  --text-color: #444;
+}
+
+.navigation {
+  background-color: #4BC5C2;
+  border-radius: 20px;
+  width: 80%;
+}
+.navigation ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+.navigation ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: var(--font-family);
+}/*# sourceMappingURL=Nav.module.css.map */

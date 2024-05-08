@@ -1,0 +1,8 @@
+.banner {
+    width: 80%;
+     // Vous pouvez ajuster cette hauteur selon le besoin
+    img {
+        width: 100%;
+        height: 50%; // Maintient le ratio d'aspect sans déformer l'image
+    }
+}
